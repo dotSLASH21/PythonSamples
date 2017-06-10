@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
 """
-This Python script downloads YouTube Videos for Ofline viewing,
-This aplication has all the basic fetures such as set save location, select
+This Python script downloads YouTube Videos for Offline viewing,
+This application has all the basic features such as set save location, select
 resolution and encoding to download and etc.
 
-Any Suggestions are welcome! and,
+Any Suggestions are welcome at https://github.com/dotSLASH21/PythonSamples
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
