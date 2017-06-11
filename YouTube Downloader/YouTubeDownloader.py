@@ -56,7 +56,7 @@ video = yt.get(listIn[0], listIn[1])
 
 #Download Video
 video.download(loc)
-
+print("Downloading please wait...")
 #Completed
-print("Your Video has been Downloaded!! Get it at "+loc)
+print("/nYour Video has been Downloaded!! Get it at "+loc)
 input("Press any key to exit...")
