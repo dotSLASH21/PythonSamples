@@ -49,14 +49,14 @@ if customName != "":
     yt.set_filename(customName)
 
 #SetSave Location
-loc = input("Enter the absolute path to save the video (e.g. C:\\Users\\User\\Downloads\\): ")
+loc = input("Enter the location to save the video (e.g. C:\\Users\\User\\Downloads\\): ")
 
 #Get Video
 video = yt.get(listIn[0], listIn[1])
 
 #Download Video
+print("Downloading please wait... (Will add progress bar in the next release! :P)")
 video.download(loc)
-print("Downloading please wait...")
 #Completed
 print("/nYour Video has been Downloaded!! Get it at "+loc)
 input("Press any key to exit...")
