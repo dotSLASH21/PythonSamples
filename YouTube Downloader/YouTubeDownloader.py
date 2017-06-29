@@ -27,7 +27,10 @@ __status__ = "Development"
 __date__ = "10-06-2017"
 
 #use "pip install pytube" to install pytube module
-from pytube import YouTube
+try:
+    from pytube import YouTube
+except:
+    print("Install \'pytube\' first by entering \'pip install pytube\' in the terminal or command prompt")
 
 getUrl = input("Enter the YouTube video URL (e.g. https://www.youtube.com/watch?v=jNQXAC9IVRw): ")
 yt = YouTube(getUrl)
